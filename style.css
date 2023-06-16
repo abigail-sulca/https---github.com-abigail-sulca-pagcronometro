@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #030405;
+    font-family: verdana;
+}
+
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+
+.superior{
+    background: #a14b15;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+
+/*Estilos para el menu de opciones*/
+.menu{
+    float: left;
+    padding: 50px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background: #a14b15;
+}
+
+/*Estilos para el cuerpo*/
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float:left;
+    width: 350px;
+    margin: 22px;
+    border: 1px solid;
+}
+
+.subtitulo{
+    background: #a14b15;
+    font-size: 18px;
+}
+
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.efecto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.contenido{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: century gothic;
+}
+
+.boton{
+    padding: 14px 16px;
+    margin: 14px 0;
+    color: white;
+    background: #a14b15;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background:#a14b15;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align:center;
+    padding: 20px 0 15px 0;
+    color: rgb(29, 29, 31);
+    font-size: 36px;
+    font-family: century gothic;
+}
+
+.titulo2{
+    text-align:left;
+    padding: 20px 0 10px 0;
+    color: rgb(29, 29, 31);
+    font-size: 30px;
+    font-family: century gothic;
+}
+
+.titulo3{
+    text-align:center;
+    padding: 20px 0 15px 0;
+    color: rgb(29, 29, 31);
+    font-size: 30px;
+    font-family: century gothic;
+}
+
+.titulo4{
+    text-align:center;
+    padding: 20px 0 15px 0;
+    color: rgb(29, 29, 31);
+    font-size: 30px;
+    font-family: century gothic;
+}
+
+.contenido0{
+    text-align:justify;
+    padding: 20px 0 10px 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(29, 29, 31);
+    font-size:20px;
+    font-family: century gothic;
+}
+
+.contenido3{
+    text-align:justify;
+    padding: 20px 0 10px 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(29, 29, 31);
+    font-size:20px;
+    font-family: century gothic;
+}
+
+
+/*Estilos de footer*/
+.pie{
+    background: #a14b15;
+    overflow: hidden;   
+}
+
+.izquierda{
+    float:left;
+    width: 550px;
+    padding: 20px;
+    
+}
+
+.derecha{
+    float:left;
+    width: 550px;
+}
+
+.abajo{
+    color:white;
+    font-size: 14px;
+}
+
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 28px 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato';
+}
+:root{
+    --background: rgb(255,255,255);
+    --background-linear1: rgba(255,255,255,1);
+    --background-linear2: rgb(255, 174, 130);
+    --container: #353535;
+    --text-color: white;
+    --screen: #353535;
+    --btn-hover: black;
+    --btn-hover-text: #fff56d;
+    --shadow: rgba(59, 59, 59, 0.75);
+}
+span{
+    font-weight: 300;
+    font-size: 100px;
+}
+
+.c-body{
+    background: var(--background);
+    background: linear-gradient(135deg, var(--background-linear1) 0%, var(--background-linear2) 70%);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-time{
+    background-color: var(--container);
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 11px 17px 22px 0px var(--shadow);
+}
+.c-time>.screen{
+    color: var(--text-color);
+    background-color: var(--screen);
+    margin: 6px;
+    text-align: center;
+}
+.c-btn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;    
+    margin: 15px 100px;
+}
+
+.c-btn>button{    
+    display: block;
+    background: none;
+    border: none;
+    outline: inherit;
+    cursor: pointer;
+
+    height: 80px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: var(--text-color);
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-color: var(--btn-hover);
+    color: var(--btn-hover-text);
+}
